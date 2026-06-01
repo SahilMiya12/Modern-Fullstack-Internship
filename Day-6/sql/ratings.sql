@@ -11,4 +11,3 @@ INSERT INTO Ratings(username, email, review, ratings)
 VALUES('kathirvel', 'kathirvel@gmail.com', 'I am annoyed', 1);
 
 SELECT * FROM Ratings;
-hey
