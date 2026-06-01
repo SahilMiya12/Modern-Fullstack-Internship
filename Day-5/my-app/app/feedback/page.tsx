@@ -1,10 +1,11 @@
 // define the server action for feedback form
-import submitFeedbackForm from "../actions/submitFeedbackForm";
-function FeedbackForm(){
+import submitFeedbackForm2 from "../actions/submitFeedbackForm2";
+
+function FeedbackForm2(){
     return (
         <>
         <h1>User Feedback Form</h1>
-        <form action={submitFeedbackForm}>
+        <form action={submitFeedbackForm2}>
             <label htmlFor="username">Username: </label>
             <input type="text" name="username" id="username" 
             placeholder="Enter your username" />
@@ -28,4 +29,4 @@ function FeedbackForm(){
         </>
     )
 }
-export default FeedbackForm;
+export default FeedbackForm2;
